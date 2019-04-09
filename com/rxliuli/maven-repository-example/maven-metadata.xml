@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.rxliuli</groupId>
+  <artifactId>maven-repository-example</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190409131321</lastUpdated>
+  </versioning>
+</metadata>
