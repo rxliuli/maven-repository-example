@@ -1,0 +1,1 @@
+mvn clean deploy -Dfile.encoding=UTF-8

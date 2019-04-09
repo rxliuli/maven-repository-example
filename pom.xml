@@ -12,6 +12,17 @@
     <github.global.server>github</github.global.server>
   </properties>
 
+  <dependencies>
+    <!--使用示例-->
+    <!--
+        <dependency>
+          <groupId>com.rxliuli</groupId>
+          <artifactId>maven-repository-example</artifactId>
+          <version>1.0-SNAPSHOT</version>
+        </dependency>
+    -->
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>
@@ -27,7 +38,8 @@
       <plugin>
         <groupId>com.github.github</groupId>
         <artifactId>site-maven-plugin</artifactId>
-        <version>0.9</version>
+        <!--https://github.com/github/maven-plugins/issues/105-->
+        <version>0.12</version>
         <configuration>
           <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
           <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
@@ -45,6 +57,7 @@
         &#039;deploy&#039; phase -->
           <execution>
             <goals>
+              <!--suppress MybatisMapperXmlInspection -->
               <goal>site</goal>
             </goals>
             <phase>deploy</phase>
