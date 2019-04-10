@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.rxliuli</groupId>
-  <artifactId>rx-easy-excel</artifactId>
+  <artifactId>maven-repository-example</artifactId>
   <versioning>
-    <release>0.1.0</release>
     <versions>
-      <version>0.1.0</version>
+      <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190410001954</lastUpdated>
+    <lastUpdated>20190410002434</lastUpdated>
   </versioning>
 </metadata>
